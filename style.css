@@ -1,0 +1,202 @@
+*{
+    padding: o;
+    margin: 0;
+    box-sizing: border-box;
+    color: #f3b15b;
+    font-family: 'Poppins', 'sans-serif';
+}
+
+ul{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+a{
+   text-decoration: none;
+
+
+}
+
+body{
+    background-image: url(./imagens/pexels-sebastiaan-stam-1690081.jpg);
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+    background-size: cover;
+    
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 12px ridge #FFF;
+    margin-bottom: 45px;
+
+
+}
+
+header ul {
+    display: flex;
+
+
+}
+
+header ul li{
+    padding: 5px ;
+    
+}
+
+header ul li a{
+    transition: 300ms;
+}
+
+header ul li a:hover{
+    color: #c0a717;
+    text-decoration: underline;
+    
+}
+
+.container .name h1{
+    font-size: 60px;
+
+}
+
+.container .name h5{
+    font-size: 25px;
+}
+
+#arrow{
+    font-size: 35px;
+    cursor: pointer;
+    animation: blink 1s steps(5, start) infinite  ; 
+}
+
+@keyframes blink {
+    to {
+        visibility: hidden;
+    }
+    
+}
+
+#animation {
+    transition: 300ms;
+
+}
+
+
+.container{
+    text-align: center;
+    margin: 50px;
+    padding: 50px;
+
+}
+
+.rotate {
+    transform: rotate(180deg);
+    transition: 300ms;
+}
+
+.active{
+    display: block !important;
+
+}
+
+#about p{
+
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.form{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.form input{
+    width: 50%;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.form button{
+    width: 15%;
+    padding: 5px 10px;
+    background: linear-gradient(to right, #c09717 50%, #9c551b 50%);
+    background-size: 200% 100%;
+    background-position: right bottom;
+    color: #FFF;
+    font-weight: 600;
+    border: none;
+    cursor: pointer;
+    transition: all 300ms ease-out;
+    border-radius: 0px 5px 5px 0px;
+    margin-left: -5px;
+}
+
+.form button:hover {
+    background-position: left bottom;
+    color: #FFF;
+
+}
+
+@media only screen and (max-width: 768px) {
+    .form{
+        width: 100%;
+    }
+
+
+}
+
+
+@media only screen and (max-width: 480px) {
+
+    #logo{
+        width: 30x30;
+    }
+
+    .container .name h1 {
+        font-size: 30px;
+    }
+
+    .container .name h5{
+        font-size: 15px;
+    }
+
+    #about p{
+        max-width: 80%;
+        text-align: justify;
+        font-size: 8px;
+    }
+    
+    ul{
+        list-style: none;
+        font-size: 15px;
+       
+    }
+
+    .form button{
+    
+        width: 50%;
+        padding: 5px 10px;
+        background: linear-gradient(to right, #c09717 50%, #9c551b 50%);
+        background-size: 200% 100%;
+        background-position: right bottom;
+        color: #FFF;
+        font-weight: 600;
+         border: none;
+        cursor: pointer;
+        transition: all 300ms ease-out;
+        border-radius: 0px 5px 5px 0px;
+        margin-left: -5px;
+    
+    }
+
+}
