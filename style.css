@@ -2,8 +2,9 @@
     padding: o;
     margin: 0;
     box-sizing: border-box;
-    color: #f3b15b;
-    font-family: 'Poppins', 'sans-serif';
+    color: #FFF;
+    font-family: 'Raleway', 'Poppins', 'sans-serif';
+
 }
 
 ul{
@@ -19,7 +20,7 @@ a{
 }
 
 body{
-    background-image: url(./imagens/pexels-sebastiaan-stam-1690081.jpg);
+    background-image: url(./imagens/Fundo-azul.jpg);
     background-repeat: no-repeat;
     background-position: center center fixed;
     background-size: cover;
@@ -57,10 +58,12 @@ header ul li a:hover{
     color: #c0a717;
     text-decoration: underline;
     
+    
 }
 
 .container .name h1{
     font-size: 60px;
+
 
 }
 
@@ -146,6 +149,44 @@ header ul li a:hover{
     color: #FFF;
 
 }
+
+#hobies{
+    
+
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    
+    
+}
+
+
+#photoshop{
+    
+    display: grid;
+    padding-right: 30px
+
+}
+
+#photoshop a{
+
+    margin-left: -5px;
+
+}
+
+#ppp{
+
+    display: grid;
+    margin: 10 10;
+
+
+}
+
+#ppp a{
+    margin-left: -5px;
+
+}
+
 
 @media only screen and (max-width: 768px) {
     .form{
